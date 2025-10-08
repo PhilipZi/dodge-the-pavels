@@ -1,0 +1,65 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific files
+*.tmp
+*.translation
+import/
+
+# Build outputs
+/builds/
+/android/
+/ios/
+/web/
+/windows/
+/linux/
+/macos/
+
+# Godot export presets (optional - nur wenn sie sensible Daten enthalten)
+# export_presets.cfg
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Compiled files (if any)
+*.o
+*.so
+*.dylib
+*.dll
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Your game's build output (if you want to exclude it)
+# first 2D-Game.dmg
