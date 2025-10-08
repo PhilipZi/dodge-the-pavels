@@ -1,6 +1,5 @@
 {
   "buildCommand": "echo 'No build needed'",
-  "outputDirectory": "BuildGame/web",
   "public": true,
   "headers": [
     {
