@@ -1,0 +1,25 @@
+{
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": "BuildGame/web",
+  "public": true,
+  "headers": [
+    {
+      "source": "/(.*\\.wasm)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.pck)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        }
+      ]
+    }
+  ]
+}
